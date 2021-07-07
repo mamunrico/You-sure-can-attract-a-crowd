@@ -8,7 +8,8 @@ This network will be used to track dog breeding activity across the globe in a d
 
 You will need to create an ERC20 token that will be minted through a `Crowdsale` contract that you can leverage from the OpenZeppelin Solidity library.
 
-This crowdsale contract will manage the entire process, allowing users to send ETH and get back PUP (PupperCoin).
+This crowdsale contract will manage the entire process, allowing users to send ETH and get back PUP 
+(PupperCoin).
 This contract will mint the tokens automatically and distribute them to buyers in one transaction.
 
 It will need to inherit `Crowdsale`, `CappedCrowdsale`, `TimedCrowdsale`, `RefundableCrowdsale`, and `MintedCrowdsale`.
